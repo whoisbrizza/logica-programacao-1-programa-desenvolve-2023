@@ -1,0 +1,24 @@
+<!-- Todos os números de 20 a 0, incluindo 20 e 0. -->
+
+<meta charset="UTF-8" />
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  var contador = 20;
+
+  while (contador >= 0) {
+    mostra("Todos os números de 20 a 0, incluindo 20 e 0: " + contador);
+    contador = contador - 1;
+  }
+
+  mostra("Fim");
+</script>
